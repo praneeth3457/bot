@@ -7,6 +7,8 @@ const
     bodyParser = require('body-parser'),
     app = express().use(bodyParser.json()); // creates express http server
 
+const PAGE_ACCESS_TOKEN = 'EAABor9cCoj0BAHqXZCvwlcsSZC6S0r7ntz59EnN90rqpYLQhwYZCdU1s8j0RuP6rWEJWeNwYhUZB1wyczIESu0ZBiaEWs5AfZBkoOD1OFG2TpLWZCjCiS9ebQC288RI4aNyrfqdxQPgkuftDrARKLGZB6ZCZChDACcyEo02SD2ZByZAKNGaMpYIBlEuL';
+
 app.get('/', function(req,res){
     res.send("Hello Bot!");
 });
